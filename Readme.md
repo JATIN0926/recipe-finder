@@ -39,7 +39,7 @@ The **Recipe Finder Web App** allows users to search for recipes by ingredient o
 
 ## Tech Stack
 
-- **Frontend**: React, Redux , Tailwind css
+- **Frontend**: React (CRA), Redux , Tailwind css
 - **API**: Spoonacular API
 - **Authentication**: OAuth2 (Gmail Login) and also supports normal email-pass login
 - **Slack Integration**: For user details sharing
