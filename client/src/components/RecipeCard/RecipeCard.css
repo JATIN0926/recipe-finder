@@ -1,0 +1,45 @@
+/* btn-4 */
+
+.Read_more {
+    position: absolute;
+    scale: 1;
+    cursor: pointer;
+    background-color: transparent;
+    width: 5.5rem;
+    padding: 0.6rem 0;
+    border: solid 1px #8f44fd;
+    border-radius: 20px;
+    position: relative;
+    font-size: 0.85rem;
+    overflow: hidden;
+    transition: 0.1s linear 0.1s;
+  }
+  
+  .Read_more span {
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+    transition: 0.2s linear 0.1s;
+  }
+  
+  .Read_more::after {
+    display: block;
+    content: "";
+    background-color: #8f44fd;
+    width: 18.75rem;
+    height: 18.75rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-40%);
+    transition: 0.2s linear 0.1s;
+    z-index: 1;
+  }
+  
+  .Read_more:hover::after {
+    top: -50%;
+  }
+  
+  .Read_more:hover span {
+    color: #f9f9f9;
+  }
